@@ -87,7 +87,7 @@
                             <h5>Recruiting?</h5>
                             <p>Advertise your jobs to millions of monthly users and search 15.8 million CVs in our database.</p>
                             <a href="#" class="theme-btn btn-style-one bg-blue"><span class="btn-title">Start Recruiting Now</span></a>
-                            <div class="image" style="background-image: url(images/resource/ads-bg-4.png);"></div>
+                            <div class="image" style="background-image: url({{ asset('assets/images/resource/ads-bg-4.png') }});"></div>
                         </div>
                         <!-- End Call To Action -->
                     </div>
@@ -130,7 +130,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-1.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-1.png') }}" alt=""></span>
                                         <h4><a href="#">Netflix</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> London, UK</li>
@@ -154,7 +154,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-2.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-2.png') }}" alt=""></span>
                                         <h4><a href="#">Opendoor</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> Opendoor</li>
@@ -175,7 +175,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-3.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-3.png') }}" alt=""></span>
                                         <h4><a href="#">Checkr</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> Opendoor</li>
@@ -196,7 +196,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-4.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-4.png') }}" alt=""></span>
                                         <h4><a href="#">Mural</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> Opendoor</li>
@@ -218,7 +218,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-5.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-5.png') }}" alt=""></span>
                                         <h4><a href="#">Astronomer</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> Opendoor</li>
@@ -240,7 +240,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-6.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-6.png') }}" alt=""></span>
                                         <h4><a href="#">Figma</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> Opendoor</li>
@@ -261,7 +261,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-7.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-7.png') }}" alt=""></span>
                                         <h4><a href="#">Stripe</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> Opendoor</li>
@@ -282,7 +282,7 @@
                             <div class="inner-box">
                                 <div class="content">
                                     <div class="content-inner">
-                                        <span class="company-logo"><img src="images/resource/company-logo/6-8.png" alt=""></span>
+                                        <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/6-8.png') }}" alt=""></span>
                                         <h4><a href="#">Invision</a></h4>
                                         <ul class="job-info">
                                             <li><span class="icon flaticon-map-locator"></span> Opendoor</li>

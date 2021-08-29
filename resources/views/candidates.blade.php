@@ -199,7 +199,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-1.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-1.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Darlene Robertson</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -223,7 +223,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-2.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-2.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Wade Warren</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -247,7 +247,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-3.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-3.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Leslie Alexander</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -271,7 +271,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-4.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-4.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Floyd Miles</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -295,7 +295,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-5.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-5.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Jerome Bell</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -319,7 +319,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-6.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-6.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Cameron Williamson</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -343,7 +343,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-7.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-7.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Robert Fox</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -367,7 +367,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-8.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-8.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Esther Howard</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>
@@ -391,7 +391,7 @@
                         <div class="candidate-block-three">
                             <div class="inner-box">
                                 <div class="content">
-                                    <figure class="image"><img src="images/resource/candidate-9.png" alt=""></figure>
+                                    <figure class="image"><img src="{{ asset('assets/images/resource/candidate-9.png') }}" alt=""></figure>
                                     <h4 class="name"><a href="#">Annette Black</a></h4>
                                     <ul class="candidate-info">
                                         <li class="designation">UI Designer</li>

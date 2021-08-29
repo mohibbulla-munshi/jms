@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="big-column col-xl-4 col-lg-3 col-md-12">
                     <div class="footer-column about-widget">
-                        <div class="logo"><a href="#"><img src="{{ asset('assets/images/logo-2.svg') }}" alt=""></a></div>
+                        <div class="logo"><a href="#"><img src="{{ asset('assets/images/logo-2.png') }}" alt=""></a></div>
                         <p class="phone-num"><span>Call us </span><a href="thebeehost%40support.html">123 456 7890</a></p>
                         <p class="address">329 Queensberry Street, North Melbourne VIC<br> 3051, Australia. <br><a href="mailto:support@superio.com" class="email">support@superio.com</a></p>
                     </div>

@@ -13,7 +13,7 @@
                             <div class="news-block col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="images/resource/news-1.jpg" alt="" /></figure>
+                                        <figure class="image"><img src="{{ asset('assets/images/resource/news-1.jpg') }}" alt="" /></figure>
                                     </div>
                                     <div class="lower-content">
                                         <ul class="post-meta">
@@ -31,7 +31,7 @@
                             <div class="news-block col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="images/resource/news-2.jpg" alt="" /></figure>
+                                        <figure class="image"><img src="{{ asset('assets/images/resource/news-2.jpg') }}" alt="" /></figure>
                                     </div>
                                     <div class="lower-content">
                                         <ul class="post-meta">
@@ -49,7 +49,7 @@
                             <div class="news-block col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="images/resource/news-3.jpg" alt="" /></figure>
+                                        <figure class="image"><img src="{{ asset('assets/images/resource/news-3.jpg') }}" alt="" /></figure>
                                     </div>
                                     <div class="lower-content">
                                         <ul class="post-meta">
@@ -67,7 +67,7 @@
                             <div class="news-block col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="images/resource/news-4.jpg" alt="" /></figure>
+                                        <figure class="image"><img src="{{ asset('assets/images/resource/news-4.jpg') }}" alt="" /></figure>
                                     </div>
                                     <div class="lower-content">
                                         <ul class="post-meta">
@@ -85,7 +85,7 @@
                             <div class="news-block col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="images/resource/news-5.jpg" alt="" /></figure>
+                                        <figure class="image"><img src="{{ asset('assets/images/resource/news-5.jpg') }}" alt="" /></figure>
                                     </div>
                                     <div class="lower-content">
                                         <ul class="post-meta">
@@ -103,7 +103,7 @@
                             <div class="news-block col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><img src="images/resource/news-6.jpg" alt="" /></figure>
+                                        <figure class="image"><img src="{{ asset('assets/images/resource/news-6.jpg') }}" alt="" /></figure>
                                     </div>
                                     <div class="lower-content">
                                         <ul class="post-meta">
@@ -172,19 +172,19 @@
 
                             <div class="widget-content">
                                 <article class="post">
-                                    <div class="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-1.png" alt=""></a></div>
+                                    <div class="post-thumb"><a href="blog-single.html"><img src="{{ asset('assets/images/resource/post-thumb-1.png') }}" alt=""></a></div>
                                     <h6><a href="blog-single.html">Attract Sales And Profits</a></h6>
                                     <div class="post-info">August 9, 2021</div>
                                 </article>
 
                                 <article class="post">
-                                    <div class="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-2.png" alt=""></a></div>
+                                    <div class="post-thumb"><a href="blog-single.html"><img src="{{ asset('assets/images/resource/post-thumb-2.png') }}" alt=""></a></div>
                                     <h6><a href="blog-single.html">5 Tips For Your Job Interviews</a></h6>
                                     <div class="post-info">August 9, 2021</div>
                                 </article>
 
                                 <article class="post">
-                                    <div class="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-3.png" alt=""></a></div>
+                                    <div class="post-thumb"><a href="blog-single.html"><img src="{{ asset('assets/images/resource/post-thumb-3.png') }}" alt=""></a></div>
                                     <h6><a href="blog-single.html">The Best Account Providers</a></h6>
                                     <div class="post-info">August 9, 2021</div>
                                 </article>

@@ -224,7 +224,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-1.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-1.png') }}" alt=""></span>
                                     <h4><a href="#">Software Engineer (Android), Libraries</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -246,7 +246,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-2.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-2.png') }}" alt=""></span>
                                     <h4><a href="#">Recruiting Coordinator</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -268,7 +268,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-3.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-3.png') }}" alt=""></span>
                                     <h4><a href="#">Product Manager, Studio</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -290,7 +290,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-4.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-4.png') }}" alt=""></span>
                                     <h4><a href="#">Senior Product Designer</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -312,7 +312,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-5.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-5.png') }}" alt=""></span>
                                     <h4><a href="#">Senior Full Stack Engineer, Creator Success</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -334,7 +334,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-6.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-6.png') }}" alt=""></span>
                                     <h4><a href="#">Software Engineer (Android), Libraries</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -356,7 +356,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-7.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-7.png') }}" alt=""></span>
                                     <h4><a href="#">Software Engineer (Android), Libraries</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -378,7 +378,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-8.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-8.png') }}" alt=""></span>
                                     <h4><a href="#">Recruiting Coordinator</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -400,7 +400,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-9.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-9.png') }}" alt=""></span>
                                     <h4><a href="#">Product Manager, Studio</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -422,7 +422,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-1.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-1.png') }}" alt=""></span>
                                     <h4><a href="#">Senior Product Designer</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -444,7 +444,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-1.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-1.png') }}" alt=""></span>
                                     <h4><a href="#">Software Engineer (Android), Libraries</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -466,7 +466,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-2.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-2.png') }}" alt=""></span>
                                     <h4><a href="#">Recruiting Coordinator</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -488,7 +488,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-3.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-3.png') }}" alt=""></span>
                                     <h4><a href="#">Product Manager, Studio</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -510,7 +510,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-4.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-4.png') }}" alt=""></span>
                                     <h4><a href="#">Senior Product Designer</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -532,7 +532,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-5.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-5.png') }}" alt=""></span>
                                     <h4><a href="#">Senior Full Stack Engineer, Creator Success</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
@@ -554,7 +554,7 @@
                         <div class="job-block col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="content">
-                                    <span class="company-logo"><img src="images/resource/company-logo/1-6.png" alt=""></span>
+                                    <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-6.png') }}" alt=""></span>
                                     <h4><a href="#">Software Engineer (Android), Libraries</a></h4>
                                     <ul class="job-info">
                                         <li><span class="icon flaticon-briefcase"></span> Segment</li>
