@@ -46,7 +46,7 @@
 
                             <!-- Only for Mobile View -->
                             <li class="mm-add-listing">
-                                <a href="add-listing.html" class="theme-btn btn-style-one">Job Post</a>
+                                <a href="dashboard" class="theme-btn btn-style-one">Dashboard</a>
                                 <span>
                                     <span class="contact-info">
                                         <span class="phone-num"><span>Call us</span><a href="tel:1234567890">123 456 7890</a></span>
@@ -69,9 +69,7 @@
                 <div class="outer-box">
                     <!-- Login/Register -->
                     <div class="btn-box">
-
-                        <a href="login-popup.html" class="theme-btn btn-style-six call-modal">Login / Register</a>
-                        <a href="dashboard-post-job.html" class="theme-btn btn-style-five"><span class="btn-title">Job Post</span></a>
+                        <a href="dashboard" class="theme-btn btn-style-five"><span class="btn-title">Dashboard</span></a>
                     </div>
                 </div>
             </div>
