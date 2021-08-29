@@ -19,3 +19,18 @@ Route::get('/', function () {
 Route::get('/job', function () {
     return view('job');
 });
+Route::get('/employers', function () {
+    return view('employers');
+});
+Route::get('/candidates', function () {
+    return view('candidates');
+});
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/register', function () {
+    return view('register');
+});

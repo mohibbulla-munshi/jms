@@ -15,33 +15,33 @@
                 <!--Nav Outer -->
                 <div class="nav-outer">
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo-2.svg') }}" alt="" title=""></a></div>
+                        <div class="logo"><a href="/"><img src="{{ asset('assets/images/logo-2.png') }}" alt="" title=""></a></div>
                     </div>
 
                     <nav class="nav main-menu">
                         <ul class="navigation" id="navbar">
                             <li class="current dropdown">
-                                <a href="index.html">Home</a>
+                                <a href="/">Home</a>
                             </li>
 
                             <li class="dropdown has-mega-menu" id="has-mega-menu">
-                                <a href="job.html">Find Jobs</a>
+                                <a href="job">Find Jobs</a>
                             </li>
 
                             <li class="dropdown">
-                                <a href="employers.html">Employers</a>
+                                <a href="employers">Employers</a>
                             </li>
                             <li class="dropdown">
-                                <a href="candidates.html">Cnadidates</a>
+                                <a href="candidates">Cnadidates</a>
                             </li>
                             <li class="dropdown">
-                                <a href="blog.html">Blog</a>
+                                <a href="blog">Blog</a>
                             </li>
                             <li class="dropdown">
-                                <a href="login.html">Log In</a>
+                                <a href="login">Log In</a>
                             </li>
                             <li class="dropdown">
-                                <a href="register.html">Sign Up</a>
+                                <a href="register">Sign Up</a>
                             </li>
 
                             <!-- Only for Mobile View -->
