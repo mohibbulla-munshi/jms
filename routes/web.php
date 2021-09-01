@@ -28,12 +28,18 @@ Route::get('/candidates', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
-Route::get('/login', function () {
+Route::get('/userLogin', function () {
     return view('login');
 });
-Route::get('/register', function () {
+Route::get('/userRegister', function () {
     return view('register');
 });
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Auth::routes();
+
+Route::get('login/google', 'App\Http\Controllers\Auth\LoginController@redirectToProvider');
+Route::get('login/google/callback', 'App\Http\Controllers\Auth\LoginController@handleProviderCallback');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

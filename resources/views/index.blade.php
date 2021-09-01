@@ -38,10 +38,10 @@
                                 <a href="blog">Blog</a>
                             </li>
                             <li class="dropdown">
-                                <a href="login">Log In</a>
+                                <a href="userLogin">Log In</a>
                             </li>
                             <li class="dropdown">
-                                <a href="register">Sign Up</a>
+                                <a href="userRegister">Sign Up</a>
                             </li>
 
                             <!-- Only for Mobile View -->
