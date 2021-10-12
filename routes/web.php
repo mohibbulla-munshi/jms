@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Auth\RegistrationController;
+use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,18 +29,12 @@ Route::get('/candidates', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
-Route::get('/userLogin', function () {
-    return view('login');
-});
-Route::get('/userRegister', function () {
-    return view('register');
-});
+
+//Dashboard
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Auth::routes();
-
-Route::get('login/google', 'App\Http\Controllers\Auth\LoginController@redirectToProvider');
-Route::get('login/google/callback', 'App\Http\Controllers\Auth\LoginController@handleProviderCallback');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Auth
+Route::get('/userLogin', [LoginController::class, 'Login']);
+Route::get('/userRegister', [RegistrationController::class,"Registration"]);
