@@ -7,11 +7,21 @@
             <div class="login-form default-form">
                 <div class="form-inner">
                     <h3>Login to Superio</h3>
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     <!--Login Form-->
-                    <form method="post" action="https://creativelayers.net/themes/superio/add-parcel.html">
+                    <form method="post" action="{{route('login')}}">
+                        @csrf
                         <div class="form-group">
                             <label>Username</label>
-                            <input type="text" name="username" placeholder="Username" required>
+                            <input type="email" name="email" placeholder="Username">
                         </div>
 
                         <div class="form-group">

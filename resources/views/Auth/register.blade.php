@@ -7,9 +7,18 @@
             <div class="login-form default-form">
                 <div class="form-inner">
                     <h3>Create a Free Superio Account</h3>
-
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     <!--Login Form-->
-                    <form method="post" action="https://creativelayers.net/themes/superio/add-parcel.html">
+                    <form method="POST" action="{{ route('register') }}">
+                        @csrf
                         <div class="form-group">
                             <div class="btn-box row">
                                 <div class="col-lg-6 col-md-12">
@@ -20,10 +29,13 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" name="name" placeholder="Full Name">
+                        </div>
                         <div class="form-group">
                             <label>Email Address</label>
-                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="email" name="email" placeholder="Email">
                         </div>
 
                         <div class="form-group">
