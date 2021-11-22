@@ -4,7 +4,7 @@
 <!-- Mirrored from creativelayers.net/themes/superio/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Aug 2021 04:56:38 GMT -->
 <head>
     <meta charset="utf-8">
-    <title>Superio | Just another HTML Template | Home Page 02</title>
+    <title>JMS | Job Management System</title>
 
     <!-- Stylesheets -->
     <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
