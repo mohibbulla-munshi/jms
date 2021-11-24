@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegistrationController;
 use App\Http\Controllers\Auth\employerSignup;
+use App\Http\Controllers\Employer\AddJob;
+use App\Http\Controllers\Employer\AddEmployer;
 use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +45,6 @@ Route::get('/employerSignup', [employerSignup::class,"index"]);
 Route::post('/userRegister', [RegistrationController::class,"store"])->name('register');
 Route::post('/userLogin', [LoginController::class,"store"])->name('login');
 
+//Employer
+Route::get('/addJob', [AddJob::class, 'index']);
+Route::get('/addEmployer', [AddEmployer::class, 'index']);

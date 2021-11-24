@@ -7,8 +7,8 @@
                 <div class="big-column col-xl-4 col-lg-3 col-md-12">
                     <div class="footer-column about-widget">
                         <div class="logo"><a href="#"><img src="{{ asset('assets/images/logo-2.png') }}" alt=""></a></div>
-                        <p class="phone-num"><span>Call us </span><a href="thebeehost%40support.html">123 456 7890</a></p>
-                        <p class="address">329 Queensberry Street, North Melbourne VIC<br> 3051, Australia. <br><a href="mailto:support@superio.com" class="email">support@superio.com</a></p>
+                        <p class="phone-num"><span>Call us </span><a href="thebeehost%40support.html">01757-364843</a></p>
+                        <p class="address">4 Probal Housing, Ring Road, Mohammadpur, Dhaka 1207, Bangladesh<br><a href="mailto:support@superio.com" class="email">support@jms.com</a></p>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@
     <div class="footer-bottom">
         <div class="auto-container">
             <div class="outer-box">
-                <div class="copyright-text">© 2021 <a href="#">Superio</a>. All Right Reserved.</div>
+                <div class="copyright-text">© 2021 <a href="#">JMS</a>. All Right Reserved.</div>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -97,7 +97,7 @@
 </footer>
 <!-- End Main Footer -->
 
-</div><!-- End Page Wrapper -->
+<!-- End Page Wrapper -->
 
 
 <script src="{{ asset('assets/js/jquery.js') }}"></script>

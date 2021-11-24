@@ -6,7 +6,7 @@
             <!-- Login Form -->
             <div class="login-form default-form">
                 <div class="form-inner">
-                    <h3>Login to Superio</h3>
+                    <h3>Login to JMS</h3>
                     @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -43,7 +43,7 @@
                             <button class="theme-btn btn-style-one" type="submit" name="log-in">Log In</button>
                         </div>
                     </form>
-
+                    <!--
                     <div class="bottom-box">
                         <div class="text">Don't have an account? <a href="register.html">Signup</a></div>
                         <div class="divider"><span>or</span></div>
@@ -56,6 +56,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
             <!--End Login Form -->

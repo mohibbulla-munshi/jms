@@ -77,7 +77,7 @@
 
         <!-- Mobile Header -->
         <div class="mobile-header">
-            <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo.svg') }}" alt="" title=""></a></div>
+            <div class="logo"><a href="/"><img src="{{ asset('assets/images/logo-2.png') }}" alt="" title=""></a></div>
 
             <!--Nav Box-->
             <div class="nav-outer clearfix">
