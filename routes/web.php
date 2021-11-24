@@ -40,3 +40,4 @@ Route::get('/userLogin', [LoginController::class, 'index']);
 Route::get('/userRegister', [RegistrationController::class,"index"]);
 Route::post('/userRegister', [RegistrationController::class,"store"])->name('register');
 Route::post('/userLogin', [LoginController::class,"store"])->name('login');
+

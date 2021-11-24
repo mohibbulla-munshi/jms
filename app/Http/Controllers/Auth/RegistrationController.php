@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class RegistrationController extends Controller
 {
@@ -51,7 +52,7 @@ class RegistrationController extends Controller
         $user = new User();
         $user->name=$request['name'];
         $user->email=$request['email'];
-        $user->password=$request['password'];
+        $user->password=Hash::make($request['password']);
         $user->save();
         return redirect('/');
 

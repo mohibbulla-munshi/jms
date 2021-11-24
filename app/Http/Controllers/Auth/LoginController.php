@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
-use Hash;
+use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
@@ -30,14 +30,6 @@ class LoginController extends Controller
         //
     }
 
-    /**
-     * Custom Login
-     */
-    public function customLogin(Request $request){
-
-
-
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -54,7 +46,7 @@ class LoginController extends Controller
 
         $user = User::where('email','=', $request->email)->first();
         if ($user){
-            if($request->password == $user->password){
+            if(Hash::check( $request->password, $user->password)){
                 return "okey";
             }
             else{
