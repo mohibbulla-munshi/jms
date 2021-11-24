@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegistrationController;
+use App\Http\Controllers\Auth\employerSignup;
 use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +39,7 @@ Route::get('/dashboard', function () {
 //Auth
 Route::get('/userLogin', [LoginController::class, 'index']);
 Route::get('/userRegister', [RegistrationController::class,"index"]);
+Route::get('/employerSignup', [employerSignup::class,"index"]);
 Route::post('/userRegister', [RegistrationController::class,"store"])->name('register');
 Route::post('/userLogin', [LoginController::class,"store"])->name('login');
 

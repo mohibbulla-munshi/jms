@@ -4,11 +4,7 @@
 <!-- Mirrored from creativelayers.net/themes/superio/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Aug 2021 04:56:38 GMT -->
 <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
     <title>JMS | Job Management System </title>
-=======
-    <title>JMS | Job Management System</title>
->>>>>>> 4d1ee1b91d020c69db30504a797f4c7b50cf8446
 
     <!-- Stylesheets -->
     <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">

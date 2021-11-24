@@ -6,7 +6,7 @@
             <!-- Login Form -->
             <div class="login-form default-form">
                 <div class="form-inner">
-                    <h3>Create a Free Superio Account</h3>
+                    <h3>Create a Free Account as Candidate</h3>
                     @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -25,7 +25,7 @@
                                     <a href="#" class="theme-btn btn-style-seven"><i class="la la-user"></i> Candidate </a>
                                 </div>
                                 <div class="col-lg-6 col-md-12">
-                                    <a href="#" class="theme-btn btn-style-four"><i class="la la-briefcase"></i> Employer </a>
+                                    <a href="employerSignup" class="theme-btn btn-style-four"><i class="la la-briefcase"></i> Employer </a>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                             <button class="theme-btn btn-style-one " type="submit" name="Register">Register</button>
                         </div>
                     </form>
-
+                    <!--
                     <div class="bottom-box">
                         <div class="divider"><span>or</span></div>
                         <div class="btn-box row">
@@ -59,6 +59,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
             <!--End Login Form -->
