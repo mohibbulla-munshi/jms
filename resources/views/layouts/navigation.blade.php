@@ -79,7 +79,10 @@
                             <a href="employers">Employers</a>
                         </li>
                         <li class="dropdown">
-                            <a href="candidates">Cnadidates</a>
+                            <a href="candidates">Candidates</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="addCandidate">Add Candidate</a>
                         </li>
                         <li class="dropdown">
                             <a href="addJob">Add Job</a>

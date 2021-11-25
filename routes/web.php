@@ -5,6 +5,7 @@ use App\Http\Controllers\Auth\RegistrationController;
 use App\Http\Controllers\Auth\employerSignup;
 use App\Http\Controllers\Employer\AddJob;
 use App\Http\Controllers\Employer\AddEmployer;
+use App\Http\Controllers\Candidates\AddCandidate;
 use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
@@ -26,9 +27,7 @@ Route::get('/job', function () {
 Route::get('/employers', function () {
     return view('employers');
 });
-Route::get('/candidates', function () {
-    return view('candidates');
-});
+Route:
 Route::get('/blog', function () {
     return view('blog');
 });
@@ -48,3 +47,9 @@ Route::post('/userLogin', [LoginController::class,"store"])->name('login');
 //Employer
 Route::get('/addJob', [AddJob::class, 'index']);
 Route::get('/addEmployer', [AddEmployer::class, 'index']);
+
+//Candidate
+Route::get('/candidates', function () {
+    return view('candidates');
+});
+Route::get('/addCandidate', [AddCandidate::class,"index"]);
