@@ -100,6 +100,11 @@
                         <li class="dropdown">
                             <a href="blog">Blog</a>
                         </li>
+                        <!--
+                        <li class="dropdown">
+                            <a href="addBlog">addBlog</a>
+                        </li>
+                        -->
 
                         <!-- Only for Mobile View -->
                         <li class="mm-add-listing">

@@ -35,9 +35,6 @@
                                 <a href="candidates">Candidates</a>
                             </li>
                             <li class="dropdown">
-                                <a href="addCandidate">Add Candidate</a>
-                            </li>
-                            <li class="dropdown">
                                 <a href="blog">Blog</a>
                             </li>
                             <li class="dropdown">
@@ -152,7 +149,7 @@
                                 <span class="title">10k+ Candidates</span>
                                 <img src="{{ asset('assets/images/resource/multi-peoples.png') }}" alt="">
                             </div>
-                            <a href="#" class="upload-cv"><span class="icon flaticon-file"></span> Upload your CV</a>
+                            <a href="addCv" class="upload-cv"><span class="icon flaticon-file"></span> Upload your CV</a>
                         </div>
                     </div>
                 </div>

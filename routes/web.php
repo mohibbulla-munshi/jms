@@ -7,6 +7,8 @@ use App\Http\Controllers\Employer\AddJob;
 use App\Http\Controllers\Employer\AddEmployer;
 use App\Http\Controllers\Candidates\AddCandidate;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\CV\CV;
+use App\Http\Controllers\Blog\AddBlog;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,7 +29,7 @@ Route::get('/job', function () {
 Route::get('/employers', function () {
     return view('employers');
 });
-Route:
+
 Route::get('/blog', function () {
     return view('blog');
 });
@@ -53,3 +55,10 @@ Route::get('/candidates', function () {
     return view('candidates');
 });
 Route::get('/addCandidate', [AddCandidate::class,"index"]);
+
+//CV
+Route::get('/addCv', [CV::class,"index"]);
+
+//Blog
+Route::get('/addBlog', [AddBlog::class,"index"]);
+
