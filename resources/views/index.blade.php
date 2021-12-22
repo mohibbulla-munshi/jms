@@ -15,7 +15,7 @@
                 <!--Nav Outer -->
                 <div class="nav-outer">
                     <div class="logo-box">
-                        <div class="logo"><a href="/"><img src="{{ asset('assets/images/logo-2.png') }}" alt="" title=""></a></div>
+                        <div class="logo"><a href="/"><img src="{{ asset('assets/images/JMS1.png') }}" alt="" title=""></a></div>
                     </div>
 
                     <nav class="nav main-menu">
@@ -32,7 +32,7 @@
                                 <a href="employers">Employers</a>
                             </li>
                             <li class="dropdown">
-                                <a href="candidates">Cnadidates</a>
+                                <a href="candidates">Candidates</a>
                             </li>
                             <li class="dropdown">
                                 <a href="blog">Blog</a>
@@ -51,7 +51,7 @@
                                     <span class="contact-info">
                                         <span class="phone-num"><span>Call us</span><a href="tel:1234567890">123 456 7890</a></span>
                                         <span class="address">329 Queensberry Street, North Melbourne VIC <br>3051, Australia.</span>
-                                        <a href="mailto:support@superio.com" class="email">support@superio.com</a>
+                                        <a href="mailto:support@jobstation.com" class="email">support@jobstation.com</a>
                                     </span>
                                     <span class="social-links">
                                         <a href="#"><span class="fab fa-facebook-f"></span></a>
@@ -77,7 +77,7 @@
 
         <!-- Mobile Header -->
         <div class="mobile-header">
-            <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo.svg') }}" alt="" title=""></a></div>
+            <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo-01.svg') }}" alt="" title=""></a></div>
 
             <!--Nav Box-->
             <div class="nav-outer clearfix">
@@ -283,7 +283,7 @@
                     <div class="inner-box">
                         <div class="content">
                             <span class="company-logo"><img src="{{ asset('assets/images/resource/company-logo/1-6.png') }}" alt=""></span>
-                            <h4><a href="#">)Web Developer</a></h4>
+                            <h4><a href="#">Web Developer</a></h4>
                             <ul class="job-info">
                                 <li><span class="icon flaticon-briefcase"></span> Segment</li>
                                 <li><span class="icon flaticon-map-locator"></span> London, UK</li>
@@ -419,7 +419,7 @@
     <!-- End Features Section -->
 
     <!-- Call To Action Two -->
-    <section class="call-to-action-two" style="background-image: url({{ asset('assets/images/background/1.jpg') }});">
+    <section class="call-to-action-two" style="background-image: url({{ asset('assets/images/background/BG-2.png') }});">
         <div class="auto-container wow fadeInUp">
             <div class="sec-title light text-center">
                 <h2>Your Dream Jobs Are Waiting</h2>
@@ -660,3 +660,5 @@
     <!-- End Call To Action -->
 
     @include('layouts/footer')
+
+<script type="text/javascript" src="js/app.js"></script>

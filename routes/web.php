@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\FacebookController;
+use App\Http\Controllers\Auth\GoogleController;
 use App\Http\Controllers\Auth\RegistrationController;
 use App\Http\Controllers\Auth\LoginController;
+use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -40,3 +42,9 @@ Route::get('/userLogin', [LoginController::class, 'index']);
 Route::get('/userRegister', [RegistrationController::class,"index"]);
 Route::post('/userRegister', [RegistrationController::class,"store"])->name('register');
 Route::post('/userLogin', [LoginController::class,"store"])->name('login');
+
+Route::get('/auth/google/redirect', [GoogleController::class, 'handleGoogleRedirect']);
+Route::get('/auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
+
+Route::get('/auth/facebook/redirect', [FacebookController::class, 'handleFacebookRedirect']);
+Route::get('/auth/facebook/callback', [FacebookController::class, 'handleFacebookCallback']);

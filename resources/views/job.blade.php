@@ -582,7 +582,7 @@
                     </div>
                 </div>
                 <!-- Ls Footer -->
-                <div class="ls-footer"><div class="copyright-text">© 2021 Superio. All Right Reserved.</div></div>
+                <div class="ls-footer"><div class="copyright-text">© 2021 Job Station. All Right Reserved.</div></div>
             </div>
         </div>
     </section>

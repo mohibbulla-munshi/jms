@@ -6,7 +6,7 @@
             <!-- Login Form -->
             <div class="login-form default-form">
                 <div class="form-inner">
-                    <h3>Create a Free Superio Account</h3>
+                    <h3>Create a Free Job Station Account</h3>
                     @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -52,10 +52,10 @@
                         <div class="divider"><span>or</span></div>
                         <div class="btn-box row">
                             <div class="col-lg-6 col-md-12">
-                                <a href="#" class="theme-btn social-btn-two facebook-btn"><i class="fab fa-facebook-f"></i> Log In via Facebook</a>
+                                <a href="/auth/facebook/redirect" class="theme-btn social-btn-two facebook-btn"><i class="fab fa-facebook-f"></i> Log In via Facebook</a>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                                <a href="#" class="theme-btn social-btn-two google-btn"><i class="fab fa-google"></i> Log In via Gmail</a>
+                                <a href="/auth/google/redirect" class="theme-btn social-btn-two google-btn"><i class="fab fa-google"></i> Log In via Gmail</a>
                             </div>
                         </div>
                     </div>

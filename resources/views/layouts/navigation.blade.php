@@ -3,7 +3,7 @@
         <nav class="nav main-menu">
     <ul class="navigation" id="navbar">
         <li class="current dropdown">
-            <a href="/"><img src="{{ asset('assets/images/logo-2.png') }}" /></a>
+            <a href="/"><img src="{{ asset('assets/images/favjms1.2.png') }}" /></a>
         </li>
         <li class="current dropdown">
             <a href="/">Home</a>
@@ -17,7 +17,7 @@
             <a href="employers">Employers</a>
         </li>
         <li class="dropdown">
-            <a href="candidates">Cnadidates</a>
+            <a href="candidates">Candidates</a>
         </li>
         <li class="dropdown">
             <a href="blog">Blog</a>
@@ -33,7 +33,7 @@
         </li>
     </ul>
     <div class="mobile-header">
-        <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo.svg') }}" alt="" title=""></a></div>
+        <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo-01.svg') }}" alt="" title=""></a></div>
 
         <!--Nav Box-->
         <div class="nav-outer clearfix">

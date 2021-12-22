@@ -4,15 +4,15 @@
 <!-- Mirrored from creativelayers.net/themes/superio/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Aug 2021 04:56:38 GMT -->
 <head>
     <meta charset="utf-8">
-    <title>Superio | Just another HTML Template | Home Page 02</title>
+    <title>Job Station | Job Management System</title>
 
     <!-- Stylesheets -->
     <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/images/logojms1.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/images/logojms1.png') }}" type="image/x-icon">
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +41,7 @@
                     <nav class="nav main-menu">
                         <ul class="navigation" id="navbar">
                             <li class="current dropdown">
-                                <a href="/"><img src="{{ asset('assets/images/logo-2.png') }}" /></a>
+                                <a href="/"><img src="{{ asset('assets/images/favjms1.2.png') }}" /></a>
                             </li>
                             <li class="current dropdown">
                                 <a href="/">Home</a>
@@ -55,7 +55,7 @@
                                 <a href="employers">Employers</a>
                             </li>
                             <li class="dropdown">
-                                <a href="candidates">Cnadidates</a>
+                                <a href="candidates">Candidates</a>
                             </li>
                             <li class="dropdown">
                                 <a href="blog">Blog</a>
@@ -68,7 +68,7 @@
                                     <span class="contact-info">
                                         <span class="phone-num"><span>Call us</span><a href="tel:1234567890">123 456 7890</a></span>
                                         <span class="address">329 Queensberry Street, North Melbourne VIC <br>3051, Australia.</span>
-                                        <a href="mailto:support@superio.com" class="email">support@superio.com</a>
+                                        <a href="mailto:support@jobstation.com" class="email">support@jobstation.com</a>
                                     </span>
                                     <span class="social-links">
                                         <a href="#"><span class="fab fa-facebook-f"></span></a>
@@ -122,7 +122,7 @@
 
         <!-- Mobile Header -->
         <div class="mobile-header">
-            <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo.svg') }}" alt="" title=""></a></div>
+            <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo-01.svg') }}" alt="" title=""></a></div>
 
             <!--Nav Box-->
             <div class="nav-outer clearfix">
@@ -455,7 +455,7 @@
 
     <!-- Copyright -->
     <div class="copyright-text">
-        <p>© 2021 Superio. All Right Reserved.</p>
+        <p>© 2021 Job Station. All Right Reserved.</p>
     </div>
 
 </div><!-- End Page Wrapper -->
